@@ -4,7 +4,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* COMMON */
+
+.btn {
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
 }
 
 /* HEADER */
+
+header {
+    position: relative;
+    background-color: #3161e0;
+    width: 100%;
+}
+
+.nav-logo, .nav-button {
+    width: 25%;
+    text-align: center;
+}
+
+ul {
+    width: 50%;
+    text-align: center;
+}
+
+li {
+    padding: 10px 20px ;
+    color: white;
+}
+
+.nav-logo, ul, header .nav-button {
+    float: left;
+    padding: 20px;
+}
+
+header li {
+    display: inline-block;
+}
+
+
+
+
 
