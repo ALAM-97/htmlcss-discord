@@ -220,3 +220,10 @@ div.right {
     margin-bottom: 100px;
 }
 
+/* FOOTER */
+
+footer {
+    height: 500px;
+    background-color: #23272a;
+}
+
