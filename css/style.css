@@ -18,8 +18,13 @@
 .btn {
     background-color: white;
     padding: 10px 20px;
-    border: 2px solid white;
+    border-style: hidden;
     border-radius: 20px;
+}
+
+.black-btn {
+    background-color: #23272a;
+    color: white;
 }
 
 .content {
@@ -33,7 +38,6 @@ header {
     position: relative;
     background-color: #255EE9;
     width: 100%;
-    height: 80px;
 }
 
 .nav-logo, .nav-button {
@@ -65,10 +69,37 @@ header li {
 .hero {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 450px;   
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+}
+
+div.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.hero-text p {
+    margin: auto;
+    color: white;
+    max-width: 45%;
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+
+.hero-text button {
+    margin-right: 20px;
 }
 
 
