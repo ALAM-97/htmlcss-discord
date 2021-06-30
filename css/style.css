@@ -28,7 +28,7 @@
 }
 
 .content {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -120,41 +120,37 @@ div .hero-text {
 
 .pic-1 {
     float: left;
-    width: 50%;
+    width: 55%;
 }
 
 div.section-text {
     display: inline-block;
-    float: left;
-    max-width: 30%;
+    max-width: 35%;
     text-align: left;
     padding-top: 120px;
 }
 
-.section-text h2 {
+.section-text h2, .section-text-right h2 {
     font-size: 40px;
     
 }
 
-.section-text p {
+.section-text p, .section-text-right p {
     padding-top: 30px;
     font-size: 18px;
     line-height: 25px;
 }
 
-/* .wave {
+.wave {
     position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     filter: opacity(0.1);
 }
 
 /* SECTION 2 */
 
-/* .bg-grey {
+.bg-gray {
     position: relative;
     width: 100%;
     background-color: #E6E6E6;
@@ -162,6 +158,20 @@ div.section-text {
 
 .section-2 {
     background-color: #E6E6E6;
-} */
+}
+
+.pic-2 {
+    float: right;
+    width: 65%;
+    padding-right: 150px;
+}
+
+div.right {
+    display: inline-block;
+    max-width: 35%;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 100px;
+}
 
 
