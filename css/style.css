@@ -217,7 +217,7 @@ div.right {
 
 .last-section-content button {
     color: white;
-    background-color: #8ea1e1;
+    background-color: #7289da;
     margin-bottom: 100px;
 }
 
@@ -236,7 +236,52 @@ div .lightblue {
 /* FOOTER */
 
 footer {
-    height: 500px;
     background-color: #23272a;
 }
+
+.posto-per-parlare {
+    width: 30%;
+    float: left;
+}
+
+.prodotto, .compagnia, .risorse, .norme {
+    width: calc(70% / 4);
+    float: left;
+}
+
+.prodotto h6, .compagnia h6, .risorse h6, .norme h6, .posto-per-parlare h4 {
+    color: #7289da;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 70px;
+    line-height: 35px;
+}
+
+.prodotto p, .compagnia p, .risorse p, .norme p {
+    font-size: 15px;
+    line-height: 35px;
+    color: white;
+}
+
+ .posto-per-parlare h4 {
+    font-size: 25px;
+    line-height: normal;
+ }
+
+ hr.blue {
+    border: 1px solid #7289da;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .logo-footer {
+     padding-bottom: 50px;
+ }
+
+ footer button.btn {
+    font-size: 15px;
+    color: white;
+    background-color: #7289da;
+    float: right;
+ }
 
