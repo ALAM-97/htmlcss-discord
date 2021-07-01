@@ -244,6 +244,16 @@ footer {
     float: left;
 }
 
+.language {
+    margin-top: 15px;
+    height: 20px;
+}
+
+.posto-per-parlare select {
+    line-height: 15px;
+    background-image: none;
+}
+
 .prodotto, .compagnia, .risorse, .norme {
     width: calc(70% / 4);
     float: left;
