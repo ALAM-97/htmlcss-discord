@@ -181,43 +181,56 @@ div.right {
 
 /* LAST SECTION */
 
-.last-section-text .last-section{
+.last-section-content .last-section{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.last-section-text h2 {
+.last-section-content h2 {
     font-size: 40px;
     padding-bottom: 20px;
 }
 
-.last-section-text p {
+.last-section-content p {
     font-size: 18px;
     line-height: 25px;
     width: 70%;
     margin: auto;
 }
 
-.content div.last-section-text {
+.content div.last-section-content {
     text-align: center;
     padding-top: 100px;
 }
 
 .last-pic {
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 
-.last-section-text h4 {
+.last-section-content h4 {
     font-size: 25px;
     padding-bottom: 35px;
 }
 
-.last-section-text button {
+.last-section-content button {
     color: white;
     background-color: #8ea1e1;
     margin-bottom: 100px;
+}
+
+div .lightblue {
+    font-size: 18px;
+}
+
+.stars {
+    position: absolute;
+    margin: auto;
+    bottom: 170px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* FOOTER */
